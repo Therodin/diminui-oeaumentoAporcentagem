@@ -10,7 +10,7 @@ if i == 'aumento':
 
 else:
       i = 'abaixo'
-      ab = float(input('Qual a porcentagem do reajuste?: '))
+      ab = float(input('Qual o salário do funcionario?: '))
       pct = float(input('Qual a porcentagem do reajuste?: '))
 
       ae = ab - (ab * pct / 100)
